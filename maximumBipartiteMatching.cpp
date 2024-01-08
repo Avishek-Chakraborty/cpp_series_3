@@ -85,7 +85,7 @@ int main() {
   // Display the matching pairs
   vector<int> matchingPairs = bipartiteGraph.getMatching();
   cout << "Matching pairs: ";
-  for (int i = 0; i < leftVertices; ++i) {
+  for (int i = 0; i < rightVertices; ++i) {
     if (matchingPairs[i] != -1) {
       cout << "(" << matchingPairs[i] << "," << i << ") ";
     }
