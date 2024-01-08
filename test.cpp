@@ -36,4 +36,8 @@ int main(){
     string rev = revStr(input);
 
     cout << rev << endl;
+
+    cout << "Done line 40 \n" << endl;
+
+    return 0;
 }
