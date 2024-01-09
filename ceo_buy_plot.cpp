@@ -27,4 +27,8 @@ int main(){
     int ans = fun(vec);
 
     cout << ans << endl;
+
+    cout << "Line 31 " << endl;
+
+    return 190;
 }
